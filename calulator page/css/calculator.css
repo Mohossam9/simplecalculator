@@ -1,0 +1,21 @@
+body {margin: 0; background-color: #21283B;}
+.container {width: 1100px; margin: auto;}
+
+/* Header */
+.header {overflow: hidden; height: 360px; background-image: url(../images/calc.jpg)}
+.header h1{color: white; font-weight: 800; font-size: 80px; border-top: 3px solid white; border-bottom: 3px solid white; text-align: center; margin-left: 15%; width: 600px; text-transform: capitalize; line-height: 120px;}
+
+/* form */
+
+.calc .result {width:800px; border: 2px solid white; overflow: hidden; margin: auto; font-size: 20px; color: #2A395A; height: 50px; margin-top: 20px; padding: 2px; text-align: center;}
+
+.calc .result span {color:white; float: left; margin-left: 30px; font-size: 30px; margin-top: 5px; font-weight: 600 ; width:25%;}
+.calc .result img {height: 40px; float: left; width: 5%; margin-left: 10px;}
+.calc .result input {height: 20px; width: 400px; margin-top: 10px; float: right; margin-right: 10px; color:#2A395A; font-size: 20px; font-weight: 800; width: 50%; float: left;}
+.calc .result button {background-color:#3B9CED; color: white; font-size: 30px;  width: 8% ; float: right; margin-right: 10px;}
+
+
+
+
+.calc .buttons {width:800px; margin: auto; height: auto; overflow: hidden; margin-top: 2px;border: 2px solid white;}
+.calc .buttons button {background-color:#3B9CED; width:23%; margin: 1%; float:left; color: white ; font-size: 30px;}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta author="hossam" content="My webpage" />
+        <title> Javascript Testing</title> 
+        <link rel="stylesheet" href="../css/calculator.css" />
+    </head>
+      
+    <body>
+        <!-- Header of my page -->
+        <div class="header">
+            <div class="container">
+                <h1>my calculator</h1>
+            </div>
+         </div>
+        <!-- end of header -->
+        
+        <!-- calculator -->
+         <div class="calc">
+             <div class="container">
+                  <div class="result">
+                      <span> You result ..</span>
+                      <img src="../images/result.png" />
+                      <input type="text" id="res" />
+                      <button id="clear">C</button>
+                  </div>
+                 <div class="buttons">
+                     <button onclick="displaynum(7)">7</button>
+                     <button onclick="displaynum(8)">8</button>
+                     <button onclick="displaynum(9)">9</button>
+                     <button onclick="setop('add')">+</button>
+                     <button onclick="displaynum(4)">4</button>
+                     <button onclick="displaynum(5)">5</button>
+                     <button onclick="displaynum(6)">6</button>
+                     <button onclick="setop('sub')">-</button>
+                     <button onclick="displaynum(1)">1</button>
+                     <button onclick="displaynum(2)">2</button>
+                     <button onclick="displaynum(3)">3</button>
+                     <button onclick="setop('div')">/</button>
+                     <button onclick="setop('mod')">%</button>
+                     <button onclick="displaynum(0)">0</button>
+                     <button id="equal">=</button>
+                     <button onclick="setop('mult')">*</button>
+                 </div>
+             </div>
+         </div>
+        <script src="../calculator.js"></script>
+    </body>
+</html>
